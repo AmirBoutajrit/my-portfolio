@@ -12,20 +12,19 @@ export default function Footer() {
         </p>
         
         <div className="flex gap-6 justify-center mb-8">
-          <a href="https://github.com" className="text-4xl hover:text-cyan-400 transition-colors" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/AmirBoutajrit" className="text-4xl hover:text-cyan-400 transition-colors" target="_blank" rel="noopener noreferrer">
             💻
           </a>
-          <a href="https://linkedin.com" className="text-4xl hover:text-cyan-400 transition-colors" target="_blank" rel="noopener noreferrer">
+          <a href="www.linkedin.com/in/amirboutajrit" className="text-4xl hover:text-cyan-400 transition-colors" target="_blank" rel="noopener noreferrer">
             💼
           </a>
-          <a href="mailto:your@email.com" className="text-4xl hover:text-cyan-400 transition-colors">
+          <a href="mailto:aboutajrit4@email.com" className="text-4xl hover:text-cyan-400 transition-colors">
             ✉️
           </a>
         </div>
         
         <div className="border-t border-gray-700 pt-6">
           <p className="text-gray-400">© {new Date().getFullYear()} Amir. All rights reserved.</p>
-          <p className="text-gray-500 text-sm mt-2">Built with React & Tailwind CSS</p>
         </div>
       </div>
     </footer>
