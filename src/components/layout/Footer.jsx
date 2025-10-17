@@ -1,7 +1,10 @@
+import React from "react";
+
 export default function Footer() {
-    return (
-      <nav style={{ padding: '1rem', borderBottom: '1px solid #ccc' }}>
-        <h2>My Portfolio</h2>
-      </nav>
-    )
-  }
+  return (
+    <footer className="bg-gray-900 text-white py-6 text-center">
+      <p>© {new Date().getFullYear()} Amir. All rights reserved.</p>
+      <p>Built with React & Tailwind CSS</p>
+    </footer>
+  );
+}
