@@ -1,4 +1,3 @@
-import "./styles/App.css" 
 import Navbar from './components/layout/Navbar.jsx'
 import Hero from './components/sections/Hero.jsx'
 import About from './components/sections/About.jsx'
